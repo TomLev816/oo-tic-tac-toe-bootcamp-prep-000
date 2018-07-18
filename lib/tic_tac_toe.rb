@@ -52,4 +52,7 @@ class TicTacToe
     end
     return false
   end
+  def full?()
+    @board.all?{|spot| spot == "X" || spot == "O"}
+  end
 end
