@@ -39,7 +39,7 @@ class TicTacToe
       turn()
     end
   end
-  def won?(board)
+  def won?()
     WIN_COMBINATIONS.each do |combo|
       winner = combo
 
