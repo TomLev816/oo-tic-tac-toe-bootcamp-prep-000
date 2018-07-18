@@ -59,7 +59,6 @@ class TicTacToe
     !won?() && full?()
   end
   def over?()
-    won?() && draw?()
+    won?() || draw?()
   end
-
 end
